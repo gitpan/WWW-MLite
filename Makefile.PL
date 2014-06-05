@@ -9,6 +9,7 @@ my $build_requires = {
 
 my $prereq_pm = {
         'CTK'                   => 1.16,
+        'DBI'                   => 0,
         'Digest::MD5'           => 2.36,
         'Module::Load'          => 0,
     };

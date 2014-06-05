@@ -1,4 +1,4 @@
-package WWW::MLite::Util; # $Id: Util.pm 8 2014-05-22 12:55:54Z minus $
+package WWW::MLite::Util; # $Id: Util.pm 15 2014-06-04 06:24:25Z minus $
 use strict;
 
 =head1 NAME
@@ -7,7 +7,7 @@ WWW::MLite::Util - Utility functions
 
 =head1 VERSION
 
-Version 1.12
+Version 1.01
 
 =head1 SYNOPSIS
 
@@ -133,7 +133,7 @@ See C<LICENSE> file
 =cut
 
 use vars qw($VERSION);
-$VERSION = 1.00;
+$VERSION = '1.01';
 
 use Time::HiRes qw(gettimeofday);
 use Digest::MD5;

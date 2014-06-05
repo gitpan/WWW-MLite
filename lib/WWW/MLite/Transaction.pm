@@ -1,4 +1,4 @@
-package WWW::MLite::Transaction; # $Id: Transaction.pm 6 2014-05-21 13:10:38Z minus $
+package WWW::MLite::Transaction; # $Id: Transaction.pm 15 2014-06-04 06:24:25Z minus $
 use strict;
 
 =head1 NAME
@@ -7,7 +7,7 @@ WWW::MLite::Transaction - MVC SKEL transaction
 
 =head1 VERSION
 
-Version 1.00
+Version 1.01
 
 =head1 SYNOPSIS
 
@@ -87,7 +87,7 @@ See C<LICENSE> file
 =cut
 
 use vars qw($VERSION);
-$VERSION = 1.00;
+$VERSION = '1.01';
 
 use CTK::Util qw/ :API /;
 

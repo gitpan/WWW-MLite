@@ -1,4 +1,4 @@
-package WWW::MLite::Store::DBI; # $Id: DBI.pm 10 2014-05-22 14:05:32Z minus $
+package WWW::MLite::Store::DBI; # $Id: DBI.pm 15 2014-06-04 06:24:25Z minus $
 use strict;
 
 =head1 NAME
@@ -7,7 +7,7 @@ WWW::MLite::Store::DBI - Database independent interface for WWW::MLite on CTK::D
 
 =head1 VERSION
 
-Version 1.00
+Version 1.01
 
 =head1 SYNOPSIS
 
@@ -256,7 +256,7 @@ See C<LICENSE> file
 =cut
 
 use vars qw($VERSION $DEBUG_FORCE);
-$VERSION = 1.00;
+$VERSION = '1.01';
 
 use constant {
         ATTR_NAMES => [
