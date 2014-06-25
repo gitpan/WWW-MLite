@@ -1,4 +1,4 @@
-package WWW::MLite; # $Id: MLite.pm 14 2014-06-03 18:36:15Z minus $
+package WWW::MLite; # $Id: MLite.pm 17 2014-06-18 11:24:35Z minus $
 use strict;
 
 =head1 NAME
@@ -7,7 +7,7 @@ WWW::MLite - Lite Web Application Framework
 
 =head1 VERSION
 
-Version 1.01
+Version 1.02
 
 =head1 SYNOPSIS
 
@@ -120,7 +120,7 @@ See C<LICENSE> file
 =cut
 
 use vars qw/ $VERSION /;
-$VERSION = '1.01';
+$VERSION = '1.02';
 
 use Module::Load;
 use CTK::Util qw/ :API /;
@@ -164,6 +164,7 @@ sub new {
         params      => $args{params},
         register    => _to_arrayref($args{register}),
         meta        => {},
+        inheritance => $args{inheritance} ? 1 : 0, # Включить наследование зерегистрированных модулей
         config      => new WWW::MLite::Config( # Конфигурационные опции
                             file => $args{config_file}, 
                             dirs => $args{config_dirs},
@@ -187,6 +188,7 @@ sub register {
     return 0 unless @mdls;
     
     load $_ for @mdls;
+    push @WWW::MLite::ISA, @mdls if $self->{inheritance};
     my $meta = $self->{meta};
     
     for (@mdls) {
