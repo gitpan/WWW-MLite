@@ -11,6 +11,7 @@ DIST CREATING
     perl Makefile.PL
     make
     make test
+    make skel
     make tardist
 
 CREATE NEW VERSION (FOR DEVELOPER ONLY)

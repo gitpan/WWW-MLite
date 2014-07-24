@@ -4,7 +4,7 @@
       "Lepenkov Sergey (Serz Minus) <minus@mail333.com>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.62, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "ExtUtils::MakeMaker version 6.64, CPAN::Meta::Converter version 2.120921",
    "license" : [
       "open_source"
    ],
@@ -37,10 +37,18 @@
             "Data::Dumper" : "0"
          },
          "requires" : {
+            "Archive::Extract" : "0.6",
             "CTK" : "1.16",
             "DBI" : "0",
+            "Digest" : "1.16",
             "Digest::MD5" : "2.36",
+            "ExtUtils::Manifest" : "1.58",
+            "File::Copy" : "2.09",
+            "File::Copy::Recursive" : "0.38",
+            "File::Find" : "0",
+            "File::Temp" : "0.22",
             "Module::Load" : "0",
+            "URI" : "1.5",
             "perl" : "5.008001"
          }
       }
@@ -55,5 +63,5 @@
          "url" : "http://svn.serzik.com/WWW-MLite/trunk"
       }
    },
-   "version" : "1.02"
+   "version" : "1.03"
 }

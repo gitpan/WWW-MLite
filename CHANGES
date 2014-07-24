@@ -1,4 +1,4 @@
-# $Id: CHANGES 17 2014-06-18 11:24:35Z minus $
+# $Id: CHANGES 18 2014-06-25 07:20:39Z minus $
 # Version/Revision history.
 
 1.00 Tue May 20 11:39:42 2014 GMT
@@ -11,3 +11,6 @@
 1.02 Thu Jun  5 12:15:46 2014 MSK
     * Documentation modified
     * Inheritance option added
+
+1.03 Wed Jun 25 11:19:43 2014 MSK
+    * Documentation modified
