@@ -8,7 +8,7 @@
 # This is free software; you can redistribute it and/or modify it
 # under the same terms as Perl itself.
 #
-# $Id: pod-coverage.t 22 2014-07-24 14:09:51Z minus $
+# $Id: pod-coverage.t 28 2014-07-31 15:30:31Z minus $
 #
 #########################################################################
 
@@ -16,7 +16,7 @@ use Test::More;
 eval "use Test::Pod::Coverage 1.08";
 plan skip_all => "Test::Pod::Coverage required for testing POD coverage" if $@;
 plan skip_all => "Currently a developer-only test" unless -d '.svn' || -d ".git";
-plan tests => 9;
+plan tests => 10;
 
 #plan skip_all => "Currently FAILS FOR MANY MODULES!";
 #all_pod_coverage_ok();
@@ -28,6 +28,7 @@ pod_coverage_ok( "WWW::MLite::Config" );
 pod_coverage_ok( "WWW::MLite::Transaction" );
 pod_coverage_ok( "WWW::MLite::Util" );
 pod_coverage_ok( "WWW::MLite::Log" );
+pod_coverage_ok( "WWW::MLite::AuthSsn" );
 
 # WWW::MLite::Store::*
 pod_coverage_ok( "WWW::MLite::Store::DBI", { trustme => [qr/^(new)$/] } );
