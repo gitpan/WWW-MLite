@@ -1,4 +1,4 @@
-# $Id: CHANGES 31 2014-08-01 10:07:19Z minus $
+# $Id: CHANGES 32 2014-08-01 10:31:31Z minus $
 # Version/Revision history.
 
 1.00 Tue May 20 11:39:42 2014 GMT
@@ -20,3 +20,6 @@
     * Documentation modified
     * WWW::MLite::AuthSsn added
     * Skeleton modified
+
+1.05 Fri Aug  1 14:30:26 2014 MSK
+    * Documentation modified

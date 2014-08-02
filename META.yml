@@ -23,6 +23,7 @@ recommends:
   Data::Dumper: 0
 requires:
   Archive::Extract: 0.6
+  CGI::Session: 4.42
   CTK: 1.16
   DBI: 0
   Digest: 1.16
@@ -39,4 +40,4 @@ resources:
   homepage: http://www.serzik.com
   license: http://opensource.org/licenses/gpl-license.php
   repository: http://svn.serzik.com/WWW-MLite/trunk
-version: 1.04
+version: 1.05

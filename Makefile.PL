@@ -9,6 +9,7 @@ my $build_requires = {
 
 my $prereq_pm = {
         'Archive::Extract'      => 0.60,
+        'CGI::Session'          => 4.42,
         'CTK'                   => 1.16,
         'DBI'                   => 0,
         'Digest'                => 1.16,

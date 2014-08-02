@@ -1,4 +1,4 @@
-package WWW::MLite; # $Id: MLite.pm 26 2014-07-29 13:36:02Z minus $
+package WWW::MLite; # $Id: MLite.pm 32 2014-08-01 10:31:31Z minus $
 use strict;
 
 =head1 NAME
@@ -7,7 +7,7 @@ WWW::MLite - Lite Web Application Framework
 
 =head1 VERSION
 
-Version 1.04
+Version 1.05
 
 =head1 SYNOPSIS
 
@@ -120,7 +120,7 @@ See C<LICENSE> file
 =cut
 
 use vars qw/ $VERSION /;
-$VERSION = '1.04';
+$VERSION = '1.05';
 
 use Module::Load;
 use CTK::Util qw/ :API /;
